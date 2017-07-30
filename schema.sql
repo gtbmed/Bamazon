@@ -14,17 +14,17 @@ CREATE TABLE products (
     );
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES 
-("Left Handed Smoke Shifter", "Camping", price, 2),
-("Screen Doors for Submarines", "Transportation", price, 10),
-("Dehydrated Water", "Camping", price, 100),
-("Helicopter Ejection Seat", "Transportation", price, 15),
-("Inflatable Dart Board", "Toys", price, 60),
-("Pedal Powered Wheelchair", "Transportation", price, 3),
-("Book on How to Read", "Books", price, 8),
-("Dictionary Index", "Books", price, 7),
-("Non-Stick Tape", "Office Supplies", price, 21),
-("Highlighter Color:Black", "Office Supplies", price, 10),
-("Double Sided Playing Cards", "Toys", price, 52);
+VALUES
+("Left Handed Smoke Shifter", "Camping", 1000, 2),
+("Screen Doors for Submarines", "Transportation", 5000, 10),
+("Dehydrated Water", "Camping", 33, 100),
+("Helicopter Ejection Seat", "Transportation", 62, 15),
+("Inflatable Dart Board", "Toys", 5, 60),
+("Pedal Powered Wheelchair", "Transportation",650, 3),
+("Book on How to Read", "Books", 19, 8),
+("Dictionary Index", "Books", 15, 7),
+("Non-Stick Tape", "Office Supplies", 5, 21),
+("Highlighter Color:Black", "Office Supplies", 1, 10),
+("Double Sided Playing Cards", "Toys", 3, 52);
 
 SELECT * FROM products;
