@@ -1,0 +1,23 @@
+{
+  "name": "john",
+  "version": "1.0.0",
+  "description": "an amazon-like storefront using mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtbmed/Bamazon.git"
+  },
+  "author": "John Barson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtbmed/Bamazon/issues"
+  },
+  "homepage": "https://github.com/gtbmed/Bamazon#readme",
+  "dependencies": {
+    "inquirer": "^3.2.1",
+    "mysql": "^2.14.0"
+  }
+}
